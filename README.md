@@ -24,7 +24,10 @@ bin/cake bake migration_snapshot (nome que sera dado a versao)
 Obs: Tem que ser como SUDO
 
 
-##Comando para fazer uma migration
-sudo bin/cake migrations create (nome que sera dado a migration)
+##Comando para criar uma migration
+ bin/cake migrations create (nome que sera dado a migration)
 
 Obs:Tem que ser como SUDO
+
+##Comando para executar uma migration:
+bin/cake migrations migrate
