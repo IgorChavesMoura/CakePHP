@@ -10,7 +10,7 @@ $this->set((nome da variavel na view),(nome da variavel do controller));
 ##Arquivo para olhar todas as regras de validação:
 Vendor/cakephp/cakephp/src/Validation/Validation.php
 
-##Sempre que usar a key 'action' colocar dentro de um ['url' =>['action' => 'comando']]
+##Sempre que usar a key 'action' colocar dentro de um ['url' =>['action' => 'comando']] por causa da nova versão do cake
 
 ##Como deixa um texto traduzivel para outros idiomas:
 coloca entre __()
@@ -31,3 +31,11 @@ Obs:Tem que ser como SUDO
 
 ##Comando para executar uma migration:
 bin/cake migrations migrate
+
+Obs:Tem que ser como SUDO
+
+##Comando para reverter as ultimas alterações :
+bin/cake migrations rollback
+
+Obs:Tem que ser como SUDO
+
