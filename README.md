@@ -9,3 +9,5 @@ $this->set((nome da variavel na view),(nome da variavel do controller));
 
 ##Arquivo para olhar todas as regras de validação:
 Vendor/cakephp/cakephp/src/Validation/Validation.php
+
+##Sempre que usar a key 'action' colocar dentro de um ['url' =>['action' => 'comando']]
