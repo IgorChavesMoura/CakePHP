@@ -11,3 +11,6 @@ $this->set((nome da variavel na view),(nome da variavel do controller));
 Vendor/cakephp/cakephp/src/Validation/Validation.php
 
 ##Sempre que usar a key 'action' colocar dentro de um ['url' =>['action' => 'comando']]
+
+##Como deixa um texto traduzivel para outros idiomas:
+coloca entre __()
