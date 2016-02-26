@@ -14,3 +14,6 @@ Vendor/cakephp/cakephp/src/Validation/Validation.php
 
 ##Como deixa um texto traduzivel para outros idiomas:
 coloca entre __()
+
+##Tag php que escre diretamente o texto:
+<?= >
