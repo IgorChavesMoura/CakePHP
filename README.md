@@ -17,3 +17,14 @@ coloca entre __()
 
 ##Tag php que escre diretamente o texto:
 <?= >
+
+##Comando para fazer um snapshot da versao atual do banco de dados:
+bin/cake bake migration_snapshot (nome que sera dado a versao)
+
+Obs: Tem que ser como SUDO
+
+
+##Comando para fazer uma migration
+sudo bin/cake migrations create (nome que sera dado a migration)
+
+Obs:Tem que ser como SUDO
