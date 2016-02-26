@@ -6,3 +6,6 @@ Entra no diretorio e digita bin/cake server
 
 ##Método para passar o conteúdo de uma variavel do controller para a view:
 $this->set((nome da variavel na view),(nome da variavel do controller));
+
+##Arquivo para olhar todas as regras de validação:
+Vendor/cakephp/cakephp/src/Validation/Validation.php
